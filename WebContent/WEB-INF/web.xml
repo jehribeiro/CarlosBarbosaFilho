@@ -7,7 +7,4 @@
 	<welcome-file-list>
 		<welcome-file>index.jsp</welcome-file>
 	</welcome-file-list>
-	<listener>
-		<listener-class>com.g2.tiles.TestTilesListener</listener-class>
-	</listener>
 </web-app>
