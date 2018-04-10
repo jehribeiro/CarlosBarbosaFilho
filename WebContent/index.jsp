@@ -7,6 +7,15 @@
 <title>Insert title here</title>
 </head>
 <body>
-kkkkkkk
+	<div align="center">
+	
+		<form action="ContatoController" method="POST">
+			Nome : <input id="nome" name="nome" type="text"/><br/>
+			E-mail : <input id="email" name="email" type="text"/><br/>
+			
+			<input id="enviar" type="submit" value="Enviar" />
+			<input id="enviar" type="reset" value="Limpar" />
+		</form>
+	</div>
 </body>
 </html>

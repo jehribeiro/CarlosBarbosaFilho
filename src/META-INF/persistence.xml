@@ -9,7 +9,7 @@
 		<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
 
 		<!-- entidade mapeada -->
-		<class>br.com.acme.model.Contato</class>
+		<class>model.Contato</class>
 
 		<properties>
 			<!-- dados da conexao -->

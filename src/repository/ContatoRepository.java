@@ -17,10 +17,6 @@ public class ContatoRepository {
 
 	private EntityManager manager = ManagerEntityFactory.entityManagerFactory();
 	
-	@PersistenceContext(unitName = "acme")
-	private EntityManager entityManager;
-
-	
 	public void salvar(Contato contato) {
 		this.manager.getTransaction();
 		this.manager.persist(contato);

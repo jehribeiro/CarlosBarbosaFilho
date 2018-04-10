@@ -22,8 +22,8 @@ public class ContatoController extends HttpServlet {
 
 	private Contato contato;
 
-	public ContatoController(ContatoService service) {
-		this.service = service;
+	public ContatoController() {
+		this.service = new ContatoService();
 		this.contato = new Contato();
 	}
 

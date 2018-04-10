@@ -14,8 +14,8 @@ public class ContatoService {
 
 	private ContatoRepository repository;
 
-	public ContatoService(ContatoRepository repository) {
-		this.repository = repository;
+	public ContatoService() {
+		this.repository = new ContatoRepository();
 	}
 
 	public void salvar(Contato contato) {
